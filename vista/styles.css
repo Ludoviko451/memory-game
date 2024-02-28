@@ -65,3 +65,24 @@ body{
 .title-container:hover{
     transform: rotate(180deg);
 }
+
+.table-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-container__th{
+    font-size: 40px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.table-container__tr{
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+td {
+    padding: 30px;
+}
